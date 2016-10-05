@@ -1,3 +1,5 @@
+<div align="center"><img src="icon_small.png"/></div>
+
 # Alkalmazások fejlesztése beadandó (project name){
 
 *Nagy Gergely -- JJSR78*
