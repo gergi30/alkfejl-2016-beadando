@@ -4,10 +4,10 @@
 
 ## Tartalomjegyzék
 
-  1. [Az értékelés összetevői](#szamonkeres)
-  1. [Feladat vállalása](#feladat)
-  1. [Alkalmazás elkészítése szerveroldali technológiával](#szerver)
-  1. [A szerveroldali alkalmazás progresszív fejlesztése kliensoldali JavaScript segítségével](#kliens)
+  1. [Az értékelés összetevői](#az-értékelés-összetevői)
+  1. [Feladat vállalása](#feladat-vállalása)
+  1. [Alkalmazás elkészítése szerveroldali technológiával](#alkalmazás-elkészítése-szerveroldali-technológiával)
+  1. [A szerveroldali alkalmazás progresszív fejlesztése kliensoldali JavaScript segítségével](#a-szerveroldali-alkalmazás-progresszív-fejlesztése-kliensoldali-javascript-segítségével)
 
 ## Az értékelés összetevői
 
