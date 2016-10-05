@@ -1,2 +1,6 @@
-# alkfejl-2016-beadando
-Nagy Gergely beadandó 2016
+# Alkalmazások fejlesztése beadandó (project name){
+
+*Nagy Gergely -- JJSR78*
+
+
+};
