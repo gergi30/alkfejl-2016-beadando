@@ -13,7 +13,7 @@
 
 ## 1. Az értékelés összetevői
 
-- [ X ] Feladat vállalása (2016. október 16. éjfél)
+- [x] Feladat vállalása (2016. október 16. éjfél)
 - [ ] Alkalmazás elkészítése szerveroldali technológiával (2016. november 13. éjfél)
 - [ ] A szerveroldali alkalmazás progresszív fejlesztése kliensoldali JavaScript segítségével (2016. december 18. éjfél)
 
