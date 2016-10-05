@@ -17,11 +17,11 @@
 
 ## Feladat vállalása
 
-```javascript
-var myGirls = ["Cecilie", "Lone"];
-var myBoys = ["Emil", "Tobias", "Linus"];
-var myChildren = myGirls.concat(myBoys);
-```
+[comment]: <> (```javascript)
+[comment]: <> (var myGirls = ["Cecilie", "Lone"];)
+[comment]: <> (var myBoys = ["Emil", "Tobias", "Linus"];)
+[comment]: <> (var myChildren = myGirls.concat(myBoys);)
+[comment]: <> (```)
 
 ## Alkalmazás elkészítése szerveroldali technológiával
 
