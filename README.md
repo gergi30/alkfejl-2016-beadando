@@ -17,6 +17,12 @@
 
 ## Feladat vállalása
 
+```javascript
+var myGirls = ["Cecilie", "Lone"];
+var myBoys = ["Emil", "Tobias", "Linus"];
+var myChildren = myGirls.concat(myBoys);
+```
+
 ## Alkalmazás elkészítése szerveroldali technológiával
 
 ## A szerveroldali alkalmazás progresszív fejlesztése kliensoldali JavaScript segítségével
