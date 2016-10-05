@@ -17,11 +17,7 @@
 
 ## Feladat vállalása
 
-[comment]: <> (```javascript)
-[comment]: <> (var myGirls = ["Cecilie", "Lone"];)
-[comment]: <> (var myBoys = ["Emil", "Tobias", "Linus"];)
-[comment]: <> (var myChildren = myGirls.concat(myBoys);)
-[comment]: <> (```)
+[//]: # (https://help.github.com/articles/creating-and-highlighting-code-blocks/)
 
 ## Alkalmazás elkészítése szerveroldali technológiával
 
