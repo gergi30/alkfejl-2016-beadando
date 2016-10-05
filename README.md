@@ -17,7 +17,9 @@
 
 ## 2. Feladat vállalása
 
-2.1. Célkitűzés, projektindító dokumentum
+### 2.1. Célkitűzés, projektindító dokumentum
+
+A project az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beadandója során készült. A project rövid leírása:
 
 ## 3. Alkalmazás elkészítése szerveroldali technológiával
 
