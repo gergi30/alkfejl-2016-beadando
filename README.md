@@ -1,6 +1,6 @@
 <div align="center"><img src="icon_small.png"/></div>
 
-# Alkalmazások fejlesztése beadandó (project name){
+# Alkalmazások fejlesztése beadandó (PhotoSpace){
 
 *Nagy Gergely -- JJSR78*
 [//]: # (https://help.github.com/articles/creating-and-highlighting-code-blocks/)
