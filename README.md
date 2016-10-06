@@ -19,7 +19,8 @@
 
 ## Feladat vállalása
 
-### 2.1. Célkitűzés, projektindító dokumentum
+  <a name="cel"></a><a name="2.1"></a>
+  - [2.1](#cel) **Célkitűzés, projektindító dokumentum**: 
 
 A project az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beadandója során készült. A project rövid leírása:
 
