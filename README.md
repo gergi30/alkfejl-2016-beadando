@@ -34,6 +34,12 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
   [ Vicces | Játék | Zene | Sport | Állatok | Tánc | Ijesztő | Autók | Étel | Művészet ]</br>
 <b>Kártya: </b>Egy komponens ami tartalmazza a felhasználó nevét, egy képet, a kép címét, kategóriáját és feltöltési dátumát.<br>
 
+  <a name="funkc"></a><a name="2.3"></a>
+  - [2.3](#funkc) **Funkcionális követelmények**: 
+
+  <a name="nemfunkc"></a><a name="2.4"></a>
+  - [2.4](#nemfunkc) **Nem funkcionális követelmények**: 
+
 ## Alkalmazás elkészítése szerveroldali technológiával
 
 ## A szerveroldali alkalmazás progresszív fejlesztése kliensoldali JavaScript segítségével
