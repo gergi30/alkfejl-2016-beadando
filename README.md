@@ -22,7 +22,7 @@
   <a name="cel"></a><a name="2.1"></a>
   - [2.1](#cel) **Célkitűzés, projektindító dokumentum**: 
 
-A project az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beadandója során készült. A project rövid leírása:
+A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beadandója során készült. A projekt rövid leírása: a cél egy közösségi háló felépítése, ahol a felhasználók képeket oszthatnak meg regisztráció majd bejelentkezést követően. A képek egy úgynevezett kártyán helyezkednek el, ami ezenfelül tartalmazza, hogy ki osztotta meg a képet, a kép címét és a megosztás dátumát is. A felhasználónak lehetősége van a saját kártyái módósítására és törlésére.
 
 ## Alkalmazás elkészítése szerveroldali technológiával
 
