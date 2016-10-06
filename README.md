@@ -39,8 +39,8 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 
 <b>Főoldal: </b>Elrejti az alkalmazást a vendégek elől.Felkelti a vendég érdeklődését a regisztrációra. <br>
 <b>Regisztráció: </b> <br>
-<b>Bejelentkezés: </b> <br>
-  - <b>Kép feltöltése: </b> <br>
+<b>Bejelentkezés:dsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa </b> <br>
+  - <b>Kép feltöltése:adsddaadsda </b> <br>
 
   <a name="nemfunkc"></a><a name="2.4"></a>
   - [2.4](#nemfunkc) **Nem funkcionális követelmények**: 
