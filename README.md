@@ -24,6 +24,9 @@
 
 A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beadandója során készült. A projekt rövid leírása: a cél egy közösségi háló felépítése, ahol a felhasználók képeket oszthatnak meg regisztráció majd bejelentkezést követően. A képek egy úgynevezett kártyán helyezkednek el, ami a képeken kívül tartalmazza, hogy ki osztotta meg a képet, a kép címét, a megosztás dátumát, és a kép kategóriáját is. A felhasználónak lehetősége van a saját kártyái módósítására és törlésére, és a többi felhasználó kártyáit is megtekintheti.
 
+  <a name="fogalom"></a><a name="2.2"></a>
+  - [2.2](#fogalom) **Szakterületi fogalomjegyzék**: 
+
 ## Alkalmazás elkészítése szerveroldali technológiával
 
 ## A szerveroldali alkalmazás progresszív fejlesztése kliensoldali JavaScript segítségével
