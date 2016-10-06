@@ -31,7 +31,7 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 <b>Felhasználó: </b>Egy személy aki regisztráció után belépett az alkalmazásba.<br>
 <b>Kép: </b>A felhasználó által megosztani kivánt JPG vagy PNG formátumú fájl.<br>
 <b>Kategória: </b>Képek csoportosítására használt címke, ami lehet:<br>
-  ⋅⋅*Vicces
+  ⋅⋅* Vicces
   ⋅⋅*Játék
   ⋅⋅*Zene
   ⋅⋅*Sport
