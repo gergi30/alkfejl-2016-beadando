@@ -27,6 +27,22 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
   <a name="fogalom"></a><a name="2.2"></a>
   - [2.2](#fogalom) **Szakterületi fogalomjegyzék**: 
 
+<b>Regisztráció: </b>Egy folyamat ami után a vendég, "felhasználó" rangot kap.
+<b>Felhasználó: </b>Egy személy aki regisztráció után belépett az alkalmazásba.
+<b>Kép: </b>A felhasználó által megosztani kivánt JPG vagy PNG formátumú fájl.
+<b>Kategória: </b>Képek csoportosítására használt címke, ami lehet:
+  -Vicces
+  -Játék
+  -Zene
+  -Sport
+  -Állatok
+  -Tánc
+  -Ijesztő
+  -Autók
+  -Étel
+  -Művészet
+<b>Kártya: </b>Egy komponens ami tartalmazza a felhasználó nevét, egy képet, a kép címét, kategóriáját és feltöltési dátumát.
+
 ## Alkalmazás elkészítése szerveroldali technológiával
 
 ## A szerveroldali alkalmazás progresszív fejlesztése kliensoldali JavaScript segítségével
