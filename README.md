@@ -37,6 +37,8 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
   <a name="funkc"></a><a name="2.3"></a>
   - [2.3](#funkc) **Funkcionális követelmények**: 
 
+  - sdssd
+
   <a name="nemfunkc"></a><a name="2.4"></a>
   - [2.4](#nemfunkc) **Nem funkcionális követelmények**: 
 
