@@ -19,13 +19,13 @@
 
 ## Feladat vállalása
 
-  <a name="cel"></a><a name="2.1"></a>
-  - [2.1](#cel) **Célkitűzés, projektindító dokumentum**: 
+<a name="cel"></a><a name="2.1"></a>
+- [2.1](#cel) **Célkitűzés, projektindító dokumentum**: 
 
 A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beadandója során készült. A projekt rövid leírása: a cél egy közösségi háló felépítése, ahol a felhasználók képeket oszthatnak meg regisztráció majd bejelentkezést követően. A képek egy úgynevezett kártyán helyezkednek el, ami a képeken kívül tartalmazza, hogy ki osztotta meg a képet, a kép címét, a megosztás dátumát, és a kép kategóriáját is. A felhasználónak lehetősége van a saját kártyái módósítására és törlésére, és a többi felhasználó kártyáit is megtekintheti. Ezenfelül kategóriák szerint szűrhetőek a kártyák.
 
-  <a name="fogalom"></a><a name="2.2"></a>
-  - [2.2](#fogalom) **Szakterületi fogalomjegyzék**: 
+<a name="fogalom"></a><a name="2.2"></a>
+- [2.2](#fogalom) **Szakterületi fogalomjegyzék**: 
 
 <b>Regisztráció: </b>Egy folyamat ami után a vendég, "felhasználó" rangot kap.<br>
 <b>Felhasználó: </b>Egy személy aki regisztráció után belépett az alkalmazásba.<br>
@@ -34,19 +34,19 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
   [ Vicces | Játék | Zene | Sport | Állatok | Tánc | Ijesztő | Autók | Étel | Művészet ]</br>
 <b>Kártya: </b>Egy komponens ami tartalmazza a felhasználó nevét, egy képet, a kép címét, kategóriáját és feltöltési dátumát.<br>
 
-  <a name="funkc"></a><a name="2.3"></a>
-  - [2.3](#funkc) **Funkcionális követelmények**: 
+<a name="funkc"></a><a name="2.3"></a>
+- [2.3](#funkc) **Funkcionális követelmények**: 
 
 <b>Főoldal: </b>Elrejti az alkalmazást a vendégek elől.Felkelti a vendég érdeklődését a regisztrációra. <br>
 <b>Regisztráció: </b>Lehetővé teszi egy vendégnek, hogy használhassa az alkalmazást. <br>
 <b>Bejelentkezés: </b>Jelszóval védi a felhasználó adatait, és a jelszóval védett funkciókat megjeleníti. Ezzel védve a felhasználót illetve az alkalmazást is az illetéktelenektől. <br>
   - <b>Kép feltöltése: </b>bla bla bla bla bla <br>
   - <b>Kép törlése: </b>bla bla bla bla bla <br>
-  - <b>Hozzászólás írása*: </b>bla bla bla bla bla <br>
+  - <b>Hozzászólás írása: </b>bla bla bla bla bla <br>
 <b>Kijelentkezés: Felhasználó által használható funkció a bejelentkezett folyamat megszüntetésére.</b><br>
   
-  <a name="nemfunkc"></a><a name="2.4"></a>
-  - [2.4](#nemfunkc) **Nem funkcionális követelmények**: 
+<a name="nemfunkc"></a><a name="2.4"></a>
+- [2.4](#nemfunkc) **Nem funkcionális követelmények**: 
 
 ## Alkalmazás elkészítése szerveroldali technológiával
 
