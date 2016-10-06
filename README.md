@@ -38,10 +38,13 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
   - [2.3](#funkc) **Funkcionális követelmények**: 
 
 <b>Főoldal: </b>Elrejti az alkalmazást a vendégek elől.Felkelti a vendég érdeklődését a regisztrációra. <br>
-<b>Regisztráció: </b> <br>
-<b>Bejelentkezés:dsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa </b> <br>
-  - <b>Kép feltöltése:adsddaadsda </b> <br>
-
+<b>Regisztráció: </b>Lehetővé teszi egy vendégnek, hogy használhassa az alkalmazást. <br>
+<b>Bejelentkezés: </b>Jelszóval védi a felhasználó adatait, és a jelszóval védett funkciókat megjeleníti. Ezzel védve a felhasználót illetve az alkalmazást is az illetéktelenektől. <br>
+  - <b>Kép feltöltése: </b>bla bla bla bla bla <br>
+  - <b>Kép törlése: </b>bla bla bla bla bla <br>
+  - <b>Hozzászólás írása*: </b>bla bla bla bla bla <br>
+<b>Kijelentkezés: Felhasználó által használható funkció a bejelentkezett folyamat megszüntetésére.</b><br>
+  
   <a name="nemfunkc"></a><a name="2.4"></a>
   - [2.4](#nemfunkc) **Nem funkcionális követelmények**: 
 
