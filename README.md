@@ -31,16 +31,7 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 <b>Felhasználó: </b>Egy személy aki regisztráció után belépett az alkalmazásba.<br>
 <b>Kép: </b>A felhasználó által megosztani kivánt JPG vagy PNG formátumú fájl.<br>
 <b>Kategória: </b>Képek csoportosítására használt címke, ami lehet:<br>
-  ⋅⋅* Vicces
-  ⋅⋅*Játék
-  ⋅⋅*Zene
-  ⋅⋅*Sport
-  ⋅⋅*Állatok
-  ⋅⋅*Tánc
-  ⋅⋅*Ijesztő
-  ⋅⋅*Autók
-  ⋅⋅*Étel
-  ⋅⋅*Művészet
+  [ <font color="green">Vicces</font> | Játék | Zene | Sport | Állatok | Tánc | Ijesztő | Autók | Étel | Művészet ]</br>
 <b>Kártya: </b>Egy komponens ami tartalmazza a felhasználó nevét, egy képet, a kép címét, kategóriáját és feltöltési dátumát.<br>
 
 ## Alkalmazás elkészítése szerveroldali technológiával
