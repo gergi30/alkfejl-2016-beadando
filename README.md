@@ -51,7 +51,8 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
   
 <a name="nemfunkc"></a><a name="2.4"></a>
 - [2.4](#nemfunkc) **Nem funkcionális követelmények**: 
-<b>Könnyű áttekinthetőség: </b>Az alkalmazás a <a href="https://material.google.com/">Google Material Design</a> irányvonalait követi. Az anyagszerű megjelenésnek köszönhetően gyors és egyszerű használatot biztosít a felhasználóknak. Az implementáláshoz a <a href="http://materializecss.com/">Materialize</a> keretrendszert használtam.<br>
+
+<b>Könnyű áttekinthetőség: </b>Az alkalmazás a <a href="https://material.google.com/">Google Material Design</a> irányvonalait követi. Az anyagszerű megjelenésnek köszönhetően gyors és egyszerű használatot biztosít a felhasználóknak. Az implementáláshoz a <a href="http://materializecss.com/">Materialize</a> keretrendszert használom.<br>
 
 ## Alkalmazás elkészítése szerveroldali technológiával
 
