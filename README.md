@@ -40,9 +40,11 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 <b>Főoldal: </b>Elrejti az alkalmazást a vendégek elől.Felkelti a vendég érdeklődését a regisztrációra. <br>
 <b>Regisztráció: </b>Lehetővé teszi egy vendégnek, hogy használhassa az alkalmazást. <br>
 <b>Bejelentkezés: </b>Jelszóval védi a felhasználó adatait, és a jelszóval védett funkciókat megjeleníti. Ezzel védve a felhasználót illetve az alkalmazást is az illetéktelenektől. Bejelentkezés után elérhető funkciók: <br>
-  - <b>Kép feltöltése: </b>bla bla bla bla bla <br>
-  - <b>Kép törlése: </b>bla bla bla bla bla <br>
-  - <b>Hozzászólás írása: </b>bla bla bla bla bla <br>
+  - <b>Kép feltöltése: </b>Feltölthessünk saját képet. <br>
+  - <b>Kép törlése: </b>Saját képeinket törölni tudjuk. <br>
+  - <b>Hozzászólás írása: </b>Meglévő képekhez tudjunk hozzászólást írni. <br>
+  - <b>Profiladatok szerkesztése: </b>Profilunk adatait lehetőség legyen megváltoztatni. <br>
+  - <b>Profil törlése: </b>Nem használt profilunkat lehetőség legyen törölni az adatbázisból. <br>
   
 <b>Kijelentkezés: </b>Felhasználó által használható funkció a bejelentkezett folyamat megszüntetésére. <br>
   
