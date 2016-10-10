@@ -52,7 +52,10 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 <a name="nemfunkc"></a><a name="2.4"></a>
 - [2.4](#nemfunkc) **Nem funkcionális követelmények**: 
 
-<b>Könnyű áttekinthetőség: </b>Az alkalmazás a <a href="https://material.google.com/">Google Material Design</a> irányvonalait követi. Az anyagszerű megjelenésnek köszönhetően gyors és egyszerű használatot biztosít a felhasználóknak. Az implementáláshoz a <a href="http://materializecss.com/">Materialize</a> keretrendszert használom.<br>
+<b>Könnyű áttekinthetőség: </b>Az alkalmazás a <a href="https://material.google.com/">Google Material Design</a> irányvonalait kövesse.Gyors és egyszerű használatot biztosítson a felhasználóknak. Az implementáláshoz a <a href="http://materializecss.com/">Materialize</a> keretrendszert használom.<br>
+<b>Megbízhatóság: </b>A jelszavakat ne plain-textbe tároljuk.Figyeljünk a jelszavak erősségére(legalább 6 karakter, szám + kis-,nagybetű).Jelszóval védett funkciók, ezzel védve a felhasználók érzékeny adatait. 
+<b>Skálázhatóság: </b>Az alkalmazás legyen skálázható, több felhasználó is képes legyen szinkron használni.
+<b>Karbantarthatóság: </b>Különböző rétegekhez tartozó forrásfájlokat külön mappákba csoportosítsuk, figyeljünk a Clean Code elvekre.Írjunk teszteket az alkalmazás fejlesztése közben. Vagy akár TDD.
 
 ## Alkalmazás elkészítése szerveroldali technológiával
 
