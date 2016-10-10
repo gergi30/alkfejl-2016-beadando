@@ -43,6 +43,7 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
   - <b>Kép feltöltése: </b>Feltölthessünk saját képet. <br>
   - <b>Kép törlése: </b>Saját képeinket törölni tudjuk. <br>
   - <b>Hozzászólás írása: </b>Meglévő képekhez tudjunk hozzászólást írni. <br>
+  - <b>Kategória alapján szűrés: </b>Képeket szűrhetjük kategóriák szerint. <br>
   - <b>Profiladatok szerkesztése: </b>Profilunk adatait lehetőség legyen megváltoztatni. <br>
   - <b>Profil törlése: </b>Nem használt profilunkat lehetőség legyen törölni az adatbázisból. <br>
   
