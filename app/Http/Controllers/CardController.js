@@ -13,7 +13,13 @@ class CardController { *
         categories: categories.toJSON()
       })
     } *
-    doCreate(request, response) {
+    delete(request, response) {
+      const categories = yield Category.all()
+      yield response.sendView('cardCreate', {
+        categories: categories.toJSON()
+      })
+    }  *
+  doCreate(request, response) {
 
       function getFormattedDate() {
         var date = new Date();

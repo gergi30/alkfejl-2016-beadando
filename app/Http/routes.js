@@ -19,6 +19,7 @@ Route.get('/user/:users/cards', 'CardController.show')
 Route.get('/user/:users/cards/:id/edit' , 'CardController.showEdit')
 Route.post('/cards/create', 'CardController.doCreate')
 Route.post('/user/:users/cards/:id/edit' , 'CardController.doEdit')
+Route.post('/user/:users/cards/:id/delete','CardController.deletes')
 
 Route.get('/user/:users/edit', 'ProfileController.show')
 Route.post('/user/:users/edit', 'ProfileController.edit')
