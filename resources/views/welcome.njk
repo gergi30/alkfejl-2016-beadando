@@ -1,0 +1,109 @@
+{% extends 'master' %}
+{% block content %}
+{{ request.currentUser.username }}
+{% if currentUser %}
+{% for card in cards %}
+<div class="container">
+  <div class="row">
+    <div class="col s12 m12 l12">
+      <div class="card " style="width:100%;max-width:500px;margin:0 auto; margin-top:20px;">
+        <div class="row valign-wrapper" style="margin-bottom:0px;">
+          <div class="col s2" style="margin-top:10px;margin-left:10px">
+            <img src="../img/avatars/{{card.avatarURL}}" alt="" class="circle responsive-img" style="width:50px">
+          </div>
+          <div class="col s6" style="padding:0">
+            <b>{{ card.username }}</b>
+            <div class="chip pink" style="margin-left:20px;color:white;">
+              {{ card.category }}
+            </div>
+          </div>
+
+          <div class="col s4">
+            <p style="text-align:right;margin-right:20px">{{ card.date }}</p>
+          </div>
+        </div>
+        <div>
+          <img src="../img/cardimages/{{card.imageURL}}" class="responsive-img">
+        </div>
+        <div>
+          <p style="text-align:left;padding-left:20px;">{{ card.description }} </p>
+        </div>
+        <div class="row " style="padding-left:20px;">
+          <div class="input-field col s7">
+            <textarea id="textarea1" class="materialize-textarea" maxlength="50"></textarea>
+            <label for="textarea1">Hozzászólás írása</label>
+          </div>
+          <div class="col s5" style="padding-top:60px">
+            <a class="waves-effect waves-light btn">Küld</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
+{% endif %}
+{% if not currentUser %}
+<div class="section no-pad-bot" id="index-banner">
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m12 l1"></div>
+      <div class="col hide-on-med-and-down l5">
+        <center><img class="responsive-img" src="phone2.png" style="width:230px"></center>
+      </div>
+      <div class="col s12 m12 l5">
+        <div class="card" style="margin:10px">
+          <br>
+          <h4 class="header center pink-text">Üdvözlünk a PhotoSpace-en!</h4>
+          <div class="row center">
+            <p class="header col s12 light">Oszd meg élményeidet és lépj kapcsolatba más lenyűgöző emberekkel.Kísérd figyelemmel az események fejleményeit, valós időben, minden szemszögből.</p>
+          </div>
+          <div class="row center">
+            <a href="/register" id="button" class="btn-large waves-effect waves-light pink">Regisztráció</a>
+          </div>
+          <br>
+        </div>
+        <div class="card-panel" style="margin:10px">
+          <center><span class="gray-text center-align">Van fiókod? <a href="/login" style="color:#FF69B4">Bejelentkezés</a>
+                  </span>
+          </center>
+        </div>
+      </div>
+      <div class="col s12 m12 l1"></div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container ">
+  <div class="section">
+    <!--   Icon Section   -->
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center pink-text"><i class="material-icons">stay_current_portrait</i></h2>
+          <h5 class="center">Reszponzív</h5>
+          <p class="light">A honlap megjelenítése különböző eszközökhöz igazodik, így könnyedén használható bármilyen eszközön, legyen az PC ,tablet ,vagy akár okostelefon.</p>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center pink-text"><i class="material-icons">group</i></h2>
+          <h5 class="center">Felhasználó barát</h5>
+          <p class="light">Az alkalmazás a <a class="pink-text" href="https://material.google.com/">Google Material Design</a> irányvonalait követi. Az anyagszerű megjelenésnek köszönhetően gyors és egyszerű használatot biztosít a felhasználóknak.</p>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center pink-text"><i class="material-icons">theaters</i></h2>
+          <h5 class="center">Szórakoztató</h5>
+          <p class="light">Fedezd fel mások képeit és oszd meg a világgal az élményeidet.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+  </div>
+</div>
+{% endif %}
+{% endblock %}

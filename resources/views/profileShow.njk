@@ -1,0 +1,41 @@
+{% extends 'master' %}{% block content %}
+<div class="container">
+  <div class="row" style="margin-top:60px">
+    <div class="col l4 m4 s12">
+      <center><img class="responsive-img circle" style="width:150px;height:150px;" src="../../img/avatars/{{currentUser.avatarURL}}"></center>
+    </div>
+    <div class="col l8 m8 s12">
+      <div class="row">
+        <div class="col s12 m4">
+          <h4 style="margin:0">{{currentUser.username}}</h4></div>
+        <div class="col s12 m4"><a class="waves-effect waves-light btn" href="/user/{{currentUser.username}}/edit">Szerkesztés</a></div>
+      </div>
+      <p><b>{{cardNumber}}</b> Kép</p>
+      <p><b>{{currentUser.lastname}} {{currentUser.firstname}}:</b> {{currentUser.description}}</p>
+    </div>
+  </div>
+  <div class="row">
+
+    <div class="col s12 m6 l4">
+      <a href="/cards/create"><img class="responsive-img" src="../../img/addimg.png"></a>
+    </div>
+    {% for card in cards %}
+    <div class="col s12 m6 l4">
+      <div class="hovereffect">
+        <img class="responsive-img" src="../../img/cardimages/{{card.imageURL}}">
+        <div class="overlay">
+          <p>
+            <a class="info" href="/user/{{currentUser.username}}/cards/{{card.id}}/edit">szerkeszt</a>
+          </p>
+          <p>
+            <a class="info" href="/user/{{currentUser.username}}/cards/{{card.id}}/delete">törlés</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+
+  </div>
+</div>
+
+{% endblock %}

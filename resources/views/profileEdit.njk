@@ -1,0 +1,60 @@
+{% extends 'master' %}{% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col s2"></div>
+    <div class="col s12 m12 l8 card">
+      <form class="col s12" role="form" method="POST" enctype="multipart/form-data" action="/user/{{currentUser.username}}/edit">
+        {{csrfField}}
+        <div style="padding: 30px;padding-left:0;">
+          <center>
+            <div class="row">
+              <div class="col s6">
+                <img class="responsive-img circle" style="width:90px;height:90px;" src="../../img/avatars/{{currentUser.avatarURL}}">
+              </div>
+              <div class="col s6">
+                <h5>{{currentUser.username}}</h5>
+              </div>
+            </div>
+          </center>
+          <div class="row">
+            <div class="input-field col s6">
+              <!--  <i class="material-icons prefix">account_circle</i>-->
+              <input id="last_name" type="text" class="validate" name="last_name" value="{{currentUser.lastname}}" required>
+              <label for="last_name">Családnév</label>
+            </div>
+            <div class="input-field col s6">
+              <!--  <i class="material-icons prefix">account_circle</i>-->
+              <input id="first_name" type="text" class="validate" name="first_name" value="{{currentUser.firstname}}" required>
+              <label for="first_name">Keresztnév</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <i class="material-icons prefix">speaker_notes</i>
+              <input id="description" type="text" class="validate" name="description" value="{{currentUser.description}}" required>
+              <label for="description">Leírás</label>
+            </div>
+          </div>
+          <div class="row hide">
+            <div class="input-field col s12">
+              <input id="user_name" type="text" class="validate" name="user_name" value="{{currentUser.username}}">
+            </div>
+          </div>
+          <div class="row">
+            <center>
+              <div class="col s6">
+                <button class="waves-effect waves-light btn-large pink" id="submit">Mentés</button>
+              </div>
+              <div class="col s6">
+                <button class="waves-effect waves-light btn-large grey" id="submit">Törlés</button>
+              </div>
+            </center>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

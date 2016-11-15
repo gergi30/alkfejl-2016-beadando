@@ -1,0 +1,62 @@
+ {% extends 'master' %} {% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col s3"></div>
+    <div class="col s12 m12 l6 card">
+      <form class="col s12" role="form" method="POST" enctype="multipart/form-data" action="/register">
+        <div style="padding: 30px;padding-left:0;">
+          <h4 style="border-left: 5px solid #ee6e73;padding-left: 1.5rem;color:#ee6e73;">Regisztráció</h4>
+          {{ csrfField }} {% if registerMessage %}
+          <div class="alert alert-success" role- "alert">
+            {{ registerMessage.success }}
+          </div>
+          {% endif %}
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="last_name" type="text" class="validate" name="last_name" required>
+              <label for="last_name">Családnév</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="first_name" type="text" class="validate" name="first_name" required>
+              <label for="first_name">Keresztnév</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="username" type="text" class="validate" name="username" required>
+              <label for="username">Felhasználónév</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="password" type="password" class="validate" name="password" required>
+              <label for="password">Jelszó</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate" name="email" required>
+              <label for="email">Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="file-field input-field">
+              <div class="btn grey">
+                <span>Profilkép</span>
+                <input type="file" name="file" id="file"  required>
+              </div>
+              <div class="file-path-wrapper">
+                <input class="file-path validate" type="text" >
+              </div>
+            </div>
+          </div>
+          <center>
+            <button class="waves-effect waves-light btn-large pink" id="submit">Regisztrálok</button>
+          </center>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

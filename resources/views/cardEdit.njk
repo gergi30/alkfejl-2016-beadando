@@ -1,0 +1,50 @@
+{% extends 'master' %}{% block content %}
+
+<div class="container">
+  {% for card in cards %}
+
+  <div class="row">
+    <form class="col s12" role="form" method="POST" enctype="multipart/form-data" action="/user/{{currentUser.username}}/cards/{{card.id}}/edit">
+      {{csrfField}}
+      <div class="col s12 m12 l12">
+        <div class="card " style="width:100%;max-width:500px;margin:0 auto; margin-top:20px;">
+          <div class="row valign-wrapper" style="margin-bottom:0px;">
+            <div class="input-field col s6" style="padding:0">
+              <select id="category_name" name="category_name">
+                              <option value="" disabled selected>Válassz kategóriát</option>
+                               {% for category in categories %}
+                                <option value="{{category.name}}">{{category.name}}</option>
+                               {% endfor %}
+                            </select>
+            </div>
+            <div class="col s4">
+              <p style="text-align:right;margin-right:20px">{{card.date}}</p>
+            </div>
+          </div>
+          <div>
+            <img src="../../../../img/cardimages/{{card.imageURL}}" class="responsive-img">
+          </div>
+          <div class="row">
+            <div class="input-field col s6" style="margin:20px">
+              <input id="description" type="text" class="validate" name="description" value="{{card.description}}" required>
+              <label for="description">Leírás</label>
+            </div>
+            <div class="row hide">
+              <div class="input-field col s12">
+                <input id="user_name" type="text" class="validate" name="user_name"  value="{{currentUser.username}}">
+              </div>
+            </div>
+            <div class="col s4">
+              <center>
+                <button class="waves-effect waves-light btn pink" id="submit" style="margin-top:20px">Mentés</button>
+              </center>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  {% endfor %}
+</div>
+
+{% endblock %}
