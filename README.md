@@ -91,6 +91,9 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 
 ## Alkalmazás elkészítése szerveroldali technológiával
 
+<a name="arch"></a><a name="3.1"></a>
+- [3.1](#arch) **Architektúra terv**: 
+
 ## A szerveroldali alkalmazás progresszív fejlesztése kliensoldali JavaScript segítségével
 
 # };
