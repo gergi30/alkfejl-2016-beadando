@@ -80,6 +80,7 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 **Vegyünk példának egy egyszerű folyamatot:**
 
  - ***Felhasználó törlése:***
+ 
  1. Az oldalra lépett vendég bejelentkezik vagy regisztrál.
  2. Bejelentkezés után a felhasználó a navigációs sávon megnyithatja a profiladatokat tartalmazó oldalt.
  3. Megnyomja a "Szerkesztés" gombot.
