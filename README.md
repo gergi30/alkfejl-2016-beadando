@@ -57,6 +57,32 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 <b>Skálázhatóság: </b>Az alkalmazás legyen skálázható, több felhasználó is képes legyen szinkron használni. <br>
 <b>Karbantarthatóság: </b>Különböző rétegekhez tartozó forrásfájlokat külön mappákba csoportosítsuk, figyeljünk a Clean Code elvekre. Írjunk teszteket az alkalmazás fejlesztése közben ( akár TDD ).
 
+<a name="hasznal"></a><a name="2.5"></a>
+- [2.5](#hasznal) **Használatieset-modell**: 
+
+**Szerepkörök:**
+
+ - Vendég ( csak regisztrációhoz és bejelentkezéshez van jogosultsága )
+	 - Főoldal
+	 - Bejelentkezés
+	 - Regisztráció
+ - Felhasználó ( alkalmazás funkciói elérhetőek számára)
+	 - Képek listázása
+	 - Képek hozzáadása
+	 - Képek szerkesztése
+	 - Képek törlése
+	 - Felhasználói adatok szerkesztése
+	 - Saját felhasználói fiók törlése
+	 - Hozzászólások írása
+
+TODO[szerepkör diagram]
+
+**Vegyünk példának egy egyszerű folyamatot:**
+
+ - ***Felhasználó törlése:***
+
+TODO[folyamat]
+
 ## Alkalmazás elkészítése szerveroldali technológiával
 
 ## A szerveroldali alkalmazás progresszív fejlesztése kliensoldali JavaScript segítségével
