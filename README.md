@@ -116,8 +116,23 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 
 | Metódus | Cím | Funkció|
 |:-------:|:---:|--------|
-|GET|/|Főoldal
- 
+|GET|/|Főoldal megjelenítése.
+|GET|/login|Bejelentkező oldal megjelenítése.
+|POST|/login|Bejelentkezés.
+|GET|/logout|Kijelentkezés.
+|GET|/register|Regisztrációs oldal megjelenítése.
+|POST|/register|Regisztráció.
+|GET|/cards/create|Új kép adatait módosító űrlap megjelenítése.
+|GET|/user/:users/cards|Felhasználó képeinek megjelenítés.
+|GET|/user/:users/cards/:id/edit|Kép módosító űrlap megjelenítése.
+|POST|/cards/create|Új Kép feltöltése.
+|POST|/user/:users/cards/:id/edit|Kép módosítása.
+|POST|/user/:users/cards/:id/delete|Kép törlése.
+|POST|/user/:user_id/cards/:card_id/sendComment|Új komment küldése.
+|GET|/user/:users/edit|Felhasználói fiók módosító ürlap megjelenítése.
+|POST|/user/:users/edit|Felhasználói fiók módosítása.
+|POST|/user/:users/delete|Felhasználói fiók törlése.
+
 ## A szerveroldali alkalmazás progresszív fejlesztése kliensoldali JavaScript segítségével
 
 # };
