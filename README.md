@@ -75,13 +75,13 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 	 - Saját felhasználói fiók törlése
 	 - Hozzászólások írása
 
-TODO[szerepkör diagram]
+<div align="center"><img src="[doc]images/hasznalatieset_diagram.png"/></div>
 
 **Vegyünk példának egy egyszerű folyamatot:**
 
  - ***Felhasználó törlése:***
 
-TODO[folyamat]
+<div align="center"><img src="[doc]images/profil_torles_folyamat.png"/></div>
 
 ## Alkalmazás elkészítése szerveroldali technológiával
 
