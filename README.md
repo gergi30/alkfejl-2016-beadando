@@ -1,4 +1,4 @@
-<div align="center"><img src="icon_small.png"/></div>
+<div align="center"><img src="[doc]images/icon_small.png"/></div>
 
 # Alkalmazások fejlesztése beadandó (PhotoSpace){
 
