@@ -105,10 +105,10 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 - Képek listázása
 	- *Hozzászólások írása* 
 - Saját profil megtekintése
-	   - *Saját képek törlése*
-		- *Saját képek hozzáadása*
-		- *Saját képek szerkesztése*
-		- *Saját profil szerkesztése*
+	- *Saját képek törlése*
+	- *Saját képek hozzáadása*
+	- *Saját képek szerkesztése*
+	- *Saját profil szerkesztése*
 	      - Felhasználói fiók törlése 
 - Kijelentkezés
  
