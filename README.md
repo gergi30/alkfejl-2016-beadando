@@ -111,8 +111,13 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 	- *Saját profil szerkesztése*
 	      - Felhasználói fiók törlése 
 - Kijelentkezés
- 
 
+***Végpontok:***
+
+| Metódus | Cím | Funkció|
+|:-------:|:---:|--------|
+|GET|/|Főoldal
+ 
 ## A szerveroldali alkalmazás progresszív fejlesztése kliensoldali JavaScript segítségével
 
 # };
