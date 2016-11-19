@@ -92,7 +92,26 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 ## Alkalmazás elkészítése szerveroldali technológiával
 
 <a name="arch"></a><a name="3.1"></a>
-- [3.1](#arch) **Architektúra terv**: 
+- [3.1](#arch) **Architektúra terv**:
+
+***Oldaltérkép:***
+
+##### Publikus
+- Belépés
+- Regisztráció
+- Üdvözlő oldal megtekintése
+
+##### Bejelentkezett
+- Képek listázása
+	- *Hozzászólások írása* 
+- Saját profil megtekintése
+	   - *Saját képek törlése*
+		- *Saját képek hozzáadása*
+		- *Saját képek szerkesztése*
+		- *Saját profil szerkesztése*
+	      - Felhasználói fiók törlése 
+- Kijelentkezés
+ 
 
 ## A szerveroldali alkalmazás progresszív fejlesztése kliensoldali JavaScript segítségével
 
