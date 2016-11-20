@@ -293,4 +293,11 @@ Szoftver:
 <a name="phasznalat"></a><a name="5.3"></a>
 - [5.3](#phasznalat) **A program használata**:
 
+1. Böngészőbe nyissuk meg az oldalt.
+2. Az oldalon használhatjuk a Bejelentkezés / Regisztráció gombokat.
+3. Bejelentkezés / Regisztráció után a már feletöltött képek listaoldalára jutunk. (Hozzászólhatunk a már meglévő képekhez)
+4. A navigációs sávon található gombbal megnyithatjuk profilunkat.
+5. Profil oldalon felvehetünk új képeket, törölhetjük, szerkeszthetjük meglévő képeinket.
+6. Szerkesztés gomb megnyomásával megjelenik a profiladatok szerkesztése űrlap.
+
 # };
