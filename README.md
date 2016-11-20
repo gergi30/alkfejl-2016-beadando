@@ -161,6 +161,48 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 <a name="mappa"></a><a name="4.2"></a>
 - [4.2](#mappa) **Könyvtárstruktúrában lévő mappák funkciójának bemutatása**:
 
+* **Photospace**
+  * **app**
+    * **Commands**
+          * _Greet.js_
+     * **Http**
+          * **Controllers**
+             * _CardController.js_
+          * _routes.js_
+     * **Listeners**
+          * _Http.js_
+     * **Model**
+          * _Card.js_
+          * _Category.js_
+          * _Comment.js_
+          * _Token.js_
+          * _User.js_
+  * **config**
+    * _index.js_
+    * _recipes.js_
+    * _login.js_
+  * **database**
+    * _comment.js_
+    * _recipes.js_
+    * _recipes.test.js_
+    * _user.js_
+    * _user.test.js_
+  * **public**: handlebars (hbs) fájlok
+    * **login**
+      * _index.hbs_
+      * _signup.hbs_
+    * **recipes**
+      * _edit.hbs_
+      * _list.hbs_
+      * _new.hbs_
+      * _show.hbs_
+    * _index.hbs_
+    * _layout.hbs_
+  * **resources**
+  * _bower.json_
+  * _package.json_
+  * _server.js_
+
 ## Felhasználói dokumentáció
 
 <a name="futas"></a><a name="5.1"></a>
