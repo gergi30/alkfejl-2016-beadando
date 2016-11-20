@@ -168,6 +168,11 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
      * **Http**
           * **Controllers**
              * _CardController.js_
+             * _HomePageController.js_
+             * _ProfileController.js_
+             * _RegisterController.js_
+             * _AuthController.js_
+          * _kernel.js_
           * _routes.js_
      * **Listeners**
           * _Http.js_
@@ -178,28 +183,29 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
           * _Token.js_
           * _User.js_
   * **config**
-    * _index.js_
-    * _recipes.js_
-    * _login.js_
+    * _app.js_
+    * _auth.js_
+    * _database.js_
+    * _event.js_
+    * _session.js_
+    * _shield.js_
   * **database**
-    * _comment.js_
-    * _recipes.js_
-    * _recipes.test.js_
-    * _user.js_
-    * _user.test.js_
+    * ** migrations **
+      * _*users_table.js_
+      * _*tokens_table.js_
+      * _*categories.js_
+      * _*cards.js_
+      * _*Comment.js_
+    * ** seeds**
+      * _Database.js_
+    * _factory.js_
+    * _PhotoSpace.sqlite_
   * **public**: handlebars (hbs) fájlok
-    * **login**
-      * _index.hbs_
-      * _signup.hbs_
-    * **recipes**
-      * _edit.hbs_
-      * _list.hbs_
-      * _new.hbs_
-      * _show.hbs_
-    * _index.hbs_
-    * _layout.hbs_
+    * **css**
+    * **img**
   * **resources**
-  * _bower.json_
+    * **views**
+  * _.env_
   * _package.json_
   * _server.js_
 
