@@ -162,11 +162,11 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 - [4.2](#mappa) **Könyvtárstruktúrában lévő mappák funkciójának bemutatása**:
 
 * **Photospace**
-  * **app**
+  * **app**: Alkalmazás fájlai.
     * **Commands**
           * _Greet.js_
      * **Http**
-          * **Controllers**
+          * **Controllers** 
              * _CardController.js_
              * _HomePageController.js_
              * _ProfileController.js_
@@ -176,35 +176,43 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
           * _routes.js_
      * **Listeners**
           * _Http.js_
-     * **Model**
+     * **Model**: Adatbázis kapcsolatokat leíró fájlok.
           * _Card.js_
           * _Category.js_
           * _Comment.js_
           * _Token.js_
           * _User.js_
-  * **config**
+  * **config**: Beállításokat tartalmazó mappa.
     * _app.js_
     * _auth.js_
     * _database.js_
     * _event.js_
     * _session.js_
     * _shield.js_
-  * **database**
-    * ** migrations **
+  * **database**: Adatbázishoz kapcsolódó fájlok.
+    * **migrations**: Adatbázis táblák sémáját leíró fájlok.
       * _*users_table.js_
       * _*tokens_table.js_
       * _*categories.js_
       * _*cards.js_
       * _*Comment.js_
-    * ** seeds**
+    * **seeds**
       * _Database.js_
     * _factory.js_
     * _PhotoSpace.sqlite_
-  * **public**: handlebars (hbs) fájlok
+  * **public**: 
     * **css**
     * **img**
   * **resources**
-    * **views**
+    * **views**: Nézeteke leíró nunjucks fájlok
+      * _cardCreate.njk_
+      * _cardEdit.njk_
+      * _login.njk_
+      * _master.njk_
+      * _profileEdit.njk_
+      * _profileShow.njk_
+      * _register.njk_
+      * _welcome.njk_
   * _.env_
   * _package.json_
   * _server.js_
