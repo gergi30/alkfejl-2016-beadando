@@ -272,6 +272,8 @@ Szoftver:
 - [npm](https://www.npmjs.com/)
 - [nodejs](https://nodejs.org/)
 
++ IDE a fejlesztéshez([Atom](https://github.com/atom/atom/releases/latest),[Nodepad++](https://notepad-plus-plus.org/)).
+
 <a name="install"></a><a name="5.2"></a>
 - [5.2](#install) **Telepítés lépései: hogyan kerül a Githubról a célgépre a program, hogyan kell elindítani**:
 
