@@ -191,11 +191,11 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
     * _shield.js_
   * **database**: Adatbázishoz kapcsolódó fájlok.
     * **migrations**: Adatbázis táblák sémáját leíró fájlok.
-      * _*users_table.js_
-      * _*tokens_table.js_
-      * _*categories.js_
-      * _*cards.js_
-      * _*Comment.js_
+      * _users_table.js_
+      * _tokens_table.js_
+      * _categories.js_
+      * _cards.js_
+      * _Comment.js_
     * **seeds**
       * _Database.js_
     * _factory.js_
