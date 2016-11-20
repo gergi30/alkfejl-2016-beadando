@@ -29,7 +29,7 @@ class RegisterController { *
     yield user.save()
 
     var registerMessage = {
-      success: 'Registration Successful! Now go ahead and login'
+      success: 'Sikeres regisztráció! Jelentkezz be!'
     }
 
     yield response.sendView('register', {

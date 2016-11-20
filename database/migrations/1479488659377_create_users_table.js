@@ -14,6 +14,7 @@ class UsersTableSchema extends Schema {
       table.string('avatarURL')
       table.string('firstname')
       table.string('lastname')
+
       table.timestamps()
     })
   }

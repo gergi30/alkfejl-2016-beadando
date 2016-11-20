@@ -3,9 +3,9 @@
 const Lucid = use('Lucid')
 
 class Category extends Lucid {
-  recipes () {
+  cards () {
     return this.hasMany('App/Model/Card')
-}
+  }
 }
 
 module.exports = Category

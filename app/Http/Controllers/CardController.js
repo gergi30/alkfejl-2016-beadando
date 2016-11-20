@@ -5,6 +5,7 @@ const Helpers = use('Helpers')
 const Card = use('App/Model/Card')
 const User = use('App/Model/User')
 const Category = use('App/Model/Category')
+const Comment = use('App/Model/Comment')
 
 class CardController { *
   create(request, response) {
@@ -14,10 +15,13 @@ class CardController { *
       })
     } *
     delete(request, response) {
-      const categories = yield Category.all()
-      yield response.sendView('cardCreate', {
-        categories: categories.toJSON()
-      })
+      const cardId = request.input('id')
+      const userName = request.input('user_name')
+      yield Database
+        .table('cards')
+        .where({ username: userName, id: cardId })
+        .delete()
+      response.redirect('/user/' + userName + '/cards')
     }  *
   doCreate(request, response) {
 
@@ -37,6 +41,7 @@ class CardController { *
         return
       }
 
+      card.user_id = request.input('user_id')
       card.avatarURL = request.input('avatar_url')
       card.username = request.input('user_name')
       card.category = request.input('category_name')
@@ -45,8 +50,7 @@ class CardController { *
       card.description = request.input('description')
 
       yield card.save();
-
-      yield response.redirect('/')
+      yield response.redirect('/user/'+card.username+'/cards')
 
     } *
     show(request, response) {
@@ -86,6 +90,19 @@ class CardController { *
 
       response.redirect('/user/' + userName + '/cards')
     }
+    *
+    sendComment(request, response) {
+        const comment = new Comment()
+
+        comment.card_id = request.param('card_id')
+        comment.user_id = request.param('user_id')
+        comment.text = request.input('comment')
+        comment.username = request.currentUser.username
+
+        yield comment.save();
+        response.redirect('back')
+    }
+
 }
 
 module.exports = CardController

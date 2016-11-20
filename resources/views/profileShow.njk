@@ -27,12 +27,32 @@
           <p>
             <a class="info" href="/user/{{currentUser.username}}/cards/{{card.id}}/edit">szerkeszt</a>
           </p>
-          <p>
-            <a class="info" href="/user/{{currentUser.username}}/cards/{{card.id}}/delete">törlés</a>
-          </p>
+          <center>
+            <form id="myform" style="align:center" role="form" method="POST" enctype="multipart/form-data" action="/user/{{currentUser.username}}/cards/{{card.id}}/delete">
+              {{csrfField}}
+              <p>
+                <!--  <a class="info"href="#" onclick="document.getElementById('myform').submit()">törlés</a> -->
+                <center>
+                  <button class=" info" id="submit">Törlés</button>
+                </center>
+              </p>
+              <div class="hide">
+                <div class="input-field">
+                  <input id="user_name" type="text" class="validate" name="user_name" value="{{currentUser.username}}">
+                </div>
+              </div>
+              <div class="hide">
+                <div class="input-field">
+                  <input id="id" type="number" class="validate" name="id" value="{{card.id}}">
+                </div>
+              </div>
+            </form>
+          </center>
         </div>
       </div>
     </div>
+
+
     {% endfor %}
 
   </div>

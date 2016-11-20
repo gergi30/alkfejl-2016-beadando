@@ -25,14 +25,34 @@ class ProfileController { *
     yield Database
       .table('users')
       .where('username', userName)
-      .update({ lastname: lastName, firstname: firstName , description: description})
+      .update({
+        lastname: lastName,
+        firstname: firstName,
+        description: description
+      })
 
-  /*  yield response.sendView('profileShow', {
-      cards: userCards,
-      cardNumber: cardNumber
-    })*/
+    response.redirect('/user/' + userName + '/cards')
+  }
 
-    response.redirect('/user/'+userName+'/cards')
+  *
+  delete(request, response) {
+    const userName = request.param('users')
+
+    yield Database
+      .table('cards')
+      .where({
+        username: userName
+      })
+      .delete()
+
+    yield Database
+      .table('users')
+      .where({
+        username: userName
+      })
+      .delete()
+
+    response.redirect('/logout')
   }
 }
 
