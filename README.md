@@ -135,4 +135,12 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 
 ## A szerveroldali alkalmazás progresszív fejlesztése kliensoldali JavaScript segítségével
 
+<a name="felulet"></a><a name="3.2"></a>
+- [3.2](#felulet) **Felhasználóifelület-modell**:
+
+
+<a name="osztalymodell"></a><a name="3.3"></a>
+- [3.3](#osztalymodell) **Osztálymodell**:
+
+
 # };
