@@ -152,9 +152,13 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 - [3.3](#osztalymodell) **Osztálymodell**:
 
 ***Adatmodell:***
+
+
 <img src="[doc]images/adatmodell.png"/>
 
 ***Adatbázisterv:***
+
+
 <img src="[doc]images/adatbterv.png"/>
 
 ***Állapotdiagram:***
