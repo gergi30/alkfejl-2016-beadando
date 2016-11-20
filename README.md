@@ -263,15 +263,17 @@ A Linuxos verzió nem frissít automatikusan, így megkell ismételni a lépése
 ***Ajánlott rendszerkövetelmény:***
 
 Hardver:
-    Pentium 4 or newer processor that supports SSE2
-    512MB of RAM
-    200MB of hard drive space
+    * _Pentium 4 or newer processor that supports SSE2_
+    * _512MB of RAM_
+    * _200MB of hard drive space_
     
 Szoftver:
-
+- [Git](https://git-scm.com/)
+- [npm](https://www.npmjs.com/)
+- [nodejs](https://nodejs.org/)
 
 <a name="install"></a><a name="5.2"></a>
-- [5.3](#install) **Telepítés lépései: hogyan kerül a Githubról a célgépre a program, hogyan kell elindítani**:
+- [5.2](#install) **Telepítés lépései: hogyan kerül a Githubról a célgépre a program, hogyan kell elindítani**:
 
 1. Kód letöltése
 
