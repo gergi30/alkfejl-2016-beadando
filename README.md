@@ -263,9 +263,9 @@ A Linuxos verzió nem frissít automatikusan, így megkell ismételni a lépése
 ***Ajánlott rendszerkövetelmény:***
 
 Hardver:
-    * _Pentium 4 or newer processor that supports SSE2_
-    * _512MB of RAM_
-    * _200MB of hard drive space_
+- _Pentium 4 or newer processor that supports SSE2_
+- _512MB of RAM_
+- _200MB of hard drive space_
     
 Szoftver:
 - [Git](https://git-scm.com/)
