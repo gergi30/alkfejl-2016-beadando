@@ -140,9 +140,18 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 <a name="felulet"></a><a name="3.2"></a>
 - [3.2](#felulet) **Felhasználóifelület-modell**:
 
+***Oldalvázlatok:***
+
+***Designterv:***
 
 <a name="osztalymodell"></a><a name="3.3"></a>
 - [3.3](#osztalymodell) **Osztálymodell**:
+
+***Adatmodell:***
+
+***Adatbázisterv:***
+
+***Állapotdiagram:***
 
 ## Implementáció
 
