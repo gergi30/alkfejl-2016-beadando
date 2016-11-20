@@ -146,7 +146,7 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 
 | Oldal neve | Oldalvázlat | Designterv |
 |:----------:|:-----------:|------------|
-|Üdvözlő oldal| <img src="[doc]images/udvozlo.png" width="300"/> | <img src="[doc]images/udvozlo.png" width="300"/>
+|Üdvözlő oldal| <img src="[doc]images/udvozlo.png" width="350"/> | <img src="[doc]images/udvozlo.png" width="350"/>
 
 <a name="osztalymodell"></a><a name="3.3"></a>
 - [3.3](#osztalymodell) **Osztálymodell**:
