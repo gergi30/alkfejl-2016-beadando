@@ -163,6 +163,11 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 
 ***Állapotdiagram:***
 
+Vegyünk példának a regisztrációt, majd egy új kép feltöltését, mindezt szekvenciadiagrammon.
+
+
+<img src="[doc]images/szekvencia.png"/>
+
 ## Implementáció
 
 <a name="fejlkorny"></a><a name="4.1"></a>
