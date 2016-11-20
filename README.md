@@ -166,6 +166,16 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 <a name="futas"></a><a name="5.1"></a>
 - [5.1](#futas) **A futtatáshoz ajánlott hardver-, szoftver konfiguráció**:
 
+***Ajánlott rendszerkövetelmény:***
+
+Hardver:
+    Pentium 4 or newer processor that supports SSE2
+    512MB of RAM
+    200MB of hard drive space
+    
+Szoftver:
+
+
 <a name="install"></a><a name="5.2"></a>
 - [5.3](#install) **Telepítés lépései: hogyan kerül a Githubról a célgépre a program, hogyan kell elindítani**:
 
