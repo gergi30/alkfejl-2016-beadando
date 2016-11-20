@@ -169,6 +169,19 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 <a name="install"></a><a name="5.2"></a>
 - [5.3](#install) **Telepítés lépései: hogyan kerül a Githubról a célgépre a program, hogyan kell elindítani**:
 
+1. Kód letöltése
+
+    a. ZIP letöltése
+
+    b. gergi30/alkfejl-2016-beadando klónozása
+
+    c. gergi30/alkfejl-2016-beadando forkolása és a saját repo klónozása
+
+2. `npm install`
+3. `.env.example` fájl átnevezése `.env`-re
+4. `npm run dev` paranccsal futtatni
+5. `localhost:3333` megnyitása
+
 <a name="phasznalat"></a><a name="5.3"></a>
 - [5.3](#phasznalat) **A program használata**:
 
