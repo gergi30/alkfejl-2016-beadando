@@ -10,6 +10,8 @@
   1. [Feladat vállalása](#feladat-vállalása)
   1. [Alkalmazás elkészítése szerveroldali technológiával](#alkalmazás-elkészítése-szerveroldali-technológiával)
   1. [A szerveroldali alkalmazás progresszív fejlesztése kliensoldali JavaScript segítségével](#a-szerveroldali-alkalmazás-progresszív-fejlesztése-kliensoldali-javascript-segítségével)
+  1. [Implementáció](#implementáció)
+  1. [Felhasználói dokumentáció](#felhasználói-dokumentáció)
 
 ## Az értékelés összetevői
 
@@ -141,6 +143,11 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 
 <a name="osztalymodell"></a><a name="3.3"></a>
 - [3.3](#osztalymodell) **Osztálymodell**:
+
+## Implementáció
+
+## Felhasználói dokumentáció
+
 
 
 # };
