@@ -146,8 +146,21 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 
 ## Implementáció
 
+<a name="fejlkorny"></a><a name="4.1"></a>
+- [4.1](#fejlkorny) **Fejlesztői környezet bemutatása**:
+
+<a name="mappa"></a><a name="4.2"></a>
+- [4.2](#mappa) **Könyvtárstruktúrában lévő mappák funkciójának bemutatása**:
+
 ## Felhasználói dokumentáció
 
+<a name="futas"></a><a name="5.1"></a>
+- [5.1](#futas) **A futtatáshoz ajánlott hardver-, szoftver konfiguráció**:
 
+<a name="install"></a><a name="5.2"></a>
+- [5.3](#install) **Telepítés lépései: hogyan kerül a Githubról a célgépre a program, hogyan kell elindítani**:
+
+<a name="phasznalat"></a><a name="5.3"></a>
+- [5.3](#phasznalat) **A program használata**:
 
 # };
