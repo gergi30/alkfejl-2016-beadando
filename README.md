@@ -144,8 +144,8 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 
 ***Designterv:***
 
-| Oldal név | Oldalvázlat | Designtev |
-|:---------:|:-----------:|-----------|
+| Oldal neve | Oldalvázlat | Designterv |
+|:----------:|:-----------:|------------|
 |Üdvözlő oldal| img | img
 
 <a name="osztalymodell"></a><a name="3.3"></a>
