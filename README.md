@@ -143,10 +143,10 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 
 | Oldal neve | Oldalvázlat | Designterv |
 |:----------:|:-----------:|------------|
-|Üdvözlő oldal| <img src="[doc]images/udvozlo.png" width="350"/> | <img src="[doc]images/udvozlo.png" width="350"/>
-|Főoldal| <img src="[doc]images/fooldal.png" width="350"/> | <img src="[doc]images/fooldal.png" width="350"/>
-|Profil oldal| <img src="[doc]images/profil.png" width="350"/> | <img src="[doc]images/profil.png" width="350"/>
-|Profil szerkesztés oldal| <img src="[doc]images/profil_szerk.png" width="350"/> | <img src="[doc]images/profil_szerk.png" width="350"/>
+|Üdvözlő oldal| <img src="[doc]images/udvozlom.jpg" width="350"/> | <img src="[doc]images/udvozlo.png" width="350"/>
+|Főoldal| <img src="[doc]images/cards.jpg" width="350"/> | <img src="[doc]images/fooldal.png" width="350"/>
+|Profil oldal| <img src="[doc]images/profilem.jpg" width="350"/> | <img src="[doc]images/profil.png" width="350"/>
+|Profil szerkesztés oldal| <img src="[doc]images/profileszerkm.jpg" width="350"/> | <img src="[doc]images/profil_szerk.png" width="350"/>
 
 <a name="osztalymodell"></a><a name="3.3"></a>
 - [3.3](#osztalymodell) **Osztálymodell**:
