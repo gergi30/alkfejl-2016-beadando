@@ -158,6 +158,44 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 <a name="fejlkorny"></a><a name="4.1"></a>
 - [4.1](#fejlkorny) **Fejlesztői környezet bemutatása**:
 
+### Telepítés
+
+#### Előkövetelmény
+- [Git](https://git-scm.com/)
+
+#### macOS
+
+Töltsd le a legújabb [Atom verziót](https://github.com/atom/atom/releases/latest).
+
+Atom automatikusan frissit, ha új verzió érhető el.
+
+#### Windows
+
+Töltsd le a legújabb [Atom telepítőt](https://github.com/atom/atom/releases/latest).  AtomSetup.exe-t a 32-bites, AtomSetup-x64.exe-t a 64-bites rendszerhez.
+
+Atom automatikusan frissit, ha új verzió érhető el.
+
+#### Debian Linux (Ubuntu)
+
+Atom csak a 64-bites Linux rendszerekhez érhető el.
+
+1. Töltsd le az `atom-amd64.deb` fájlt a [Atom oldaláról](https://github.com/atom/atom/releases/latest).
+2. Futtasd `sudo dpkg --install atom-amd64.deb` parancsot a letöltött mappában.
+3. Indítsd el az Atomot a telepített `atom` paranccsal.
+
+A Linuxos verzió nem frissít automatikusan, így megkell ismételni a lépéseket az új verzió telepítéséhez.
+
+### Használat
+
+1. Atom IDE elindítása.
+2. Project mappa megnyitása.
+3. Kód írása.
+4. Githubra feltöltés:
+  1. git add paranccsal kiválaszthatunk egy fájlt verzionálásra, vagy git add . paranccsal az összes fájlt kiválaszthatjuk.
+  2. git commit -m "commit" paranccsal feltehetjük a fájlokat a helyi tárolójába. Az így megjelölt verziókhoz a későbbiekben visszatérhetünk, különbségüket megtekinthetjük.
+  3. git push origin master paranccsal a lokális tárolóból feltölthetjük a tartalmat a Github-ra.
+5. Végezetül a Github oldalán leellenőrizhetjük a munkánkat.
+
 <a name="mappa"></a><a name="4.2"></a>
 - [4.2](#mappa) **Könyvtárstruktúrában lévő mappák funkciójának bemutatása**:
 
