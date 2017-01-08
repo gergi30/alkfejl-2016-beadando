@@ -192,6 +192,20 @@ Vegyünk példának a regisztrációt, majd egy új kép feltöltését, mindezt
       * _master.njk_        (scriptek behúzása)
       * _profileShow.njk_   (gomb id tag hozzáadása)
       * _welcome.njk_       (gomb id tag hozzáadása)
+      
+### A funkció működésének, folyamatának szöveges leírása
+
+* Bejelentkezés felugró ablak [popup_login.js]:
+    Bejelentkezést modalba megjelenytő kód.
+* Regisztráció felugró ablak [popup_register.js]:
+    Regisztrációt  modalba megjelenytő kód.
+* Kép hozzáadása felugró ablak [popup_add_image.js]:
+    Kép hozzáadást  modalba megjelenytő kód.
+* Idő kijelzése [time.js]:
+    Navbárba aktuális idő kijelzése.
+* Előre/vissza nyilak [elore.js + vissza.js]:
+    Hasonéó műkődés mint a böngésző előre vissza gombja.
+
 
 #### Tesztelés
 
