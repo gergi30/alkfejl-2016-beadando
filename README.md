@@ -231,6 +231,12 @@ A tesztesetek a tests mappában találhatóak.
   + bejelentkezés (email: selenium@ide.com, jelszó: selenium)
   + profil adatok szerkesztése.
   + profil törlése.
+  
+<img src="[doc]images/test.png"/>
+  
+### Szekvenciadiagram
+
+<img src="[doc]images/szekvencia.png"/>
 
 ## Implementáció
 
