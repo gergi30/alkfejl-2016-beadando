@@ -166,10 +166,6 @@ Vegyünk példának a regisztrációt, majd egy új kép feltöltését, mindezt
 
 <img src="[doc]images/szekvencia.png"/>
 
-## Implementáció
-
-<a name="fejlkorny"></a><a name="4.1"></a>
-- [4.1](#fejlkorny) **Fejlesztői környezet bemutatása**:
 
 ## A szerveroldali alkalmazás progresszív fejlesztése kliensoldali JavaScript segítségével
 
@@ -185,6 +181,11 @@ Elérés: https://addons.mozilla.org/hu/firefox/addon/selenium-ide/ <br>
 6. Ctrl+S billentyűkombinációval teszt mentése.<br>
 
 Tesztesetek:<br>
+
+## Implementáció
+
+<a name="fejlkorny"></a><a name="4.1"></a>
+- [4.1](#fejlkorny) **Fejlesztői környezet bemutatása**:
 
 ### Telepítés
 
