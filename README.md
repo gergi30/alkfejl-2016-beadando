@@ -169,7 +169,7 @@ Vegyünk példának a regisztrációt, majd egy új kép feltöltését, mindezt
 
 ## A szerveroldali alkalmazás progresszív fejlesztése kliensoldali JavaScript segítségével
 
-#### A funkcióban érintett fájlok mind kliens- és szerveroldalon
+### A funkcióban érintett fájlok mind kliens- és szerveroldalon
 
 * **Photospace**
   * **app**: Alkalmazás fájlai.
@@ -207,7 +207,7 @@ Vegyünk példának a regisztrációt, majd egy új kép feltöltését, mindezt
     Hasonéó műkődés mint a böngésző előre vissza gombja.
 
 
-#### Tesztelés
+### Tesztelés
 
 A tesztelés Selenium IDE használatával valósul meg.<br>
 Elérés: https://addons.mozilla.org/hu/firefox/addon/selenium-ide/ <br>
