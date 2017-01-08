@@ -182,6 +182,18 @@ Elérés: https://addons.mozilla.org/hu/firefox/addon/selenium-ide/ <br>
 
 Tesztesetek:<br>
 
+A tesztesetek a tests mappában találhatóak.
+
+1. Test suite 1: reg_log_add_del
+
+  Amit tesztelni fog:
+
+  + regisztrálás (név: Selenium IDE, email: selenium@ide.com, jelszó: selenium)
+  Regisztráláshoz egy képet is kikell választani ezt az egy sort átkell írnunk ha azt akarjuk, hogy a teszt máshol is működjön, mivel lokálisan töltjük fel.
+  + bejelentkezés (email: selenium@ide.com, jelszó: selenium)
+  + profil adatok szerkesztése.
+  + profil törlése.
+
 ## Implementáció
 
 <a name="fejlkorny"></a><a name="4.1"></a>
