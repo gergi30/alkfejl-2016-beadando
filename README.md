@@ -173,8 +173,6 @@ Vegyünk példának a regisztrációt, majd egy új kép feltöltését, mindezt
 
 * **Photospace**
   * **app**: Alkalmazás fájlai.
-    * **Commands**
-          * _Greet.js_
      * **Http**
           * **Controllers** 
              * _CardController.js_      (modal kép hozzádáshoz)
