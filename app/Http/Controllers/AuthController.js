@@ -34,6 +34,27 @@ class AuthController { *
     yield request.auth.logout()
     return response.redirect('/')
   }
+
+  *
+  ajaxLogin(request, response) {
+    const email = request.input('email')
+    const password = request.input('password')
+
+    try {
+      const login = yield request.auth.attempt(email, password)
+      if (login) {
+        response.send({
+          success: true
+        })
+        return 
+      }
+    } catch (err) {
+      response.send({
+        success: false
+      })
+    }
+  }
+
 }
 
 module.exports = AuthController

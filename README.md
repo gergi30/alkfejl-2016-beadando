@@ -22,12 +22,12 @@
 ## Feladat vállalása
 
 <a name="cel"></a><a name="2.1"></a>
-- [2.1](#cel) **Célkitűzés, projektindító dokumentum**: 
+- [2.1](#cel) **Célkitűzés, projektindító dokumentum**:
 
 A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beadandója során készült. A projekt rövid leírása: a cél egy közösségi háló felépítése, ahol a felhasználók képeket oszthatnak meg regisztráció majd bejelentkezést követően. A képek egy úgynevezett kártyán helyezkednek el, ami a képeken kívül tartalmazza, hogy ki osztotta meg a képet, a kép címét, a megosztás dátumát, és a kép kategóriáját is. A felhasználónak lehetősége van a saját kártyái módósítására és törlésére, és a többi felhasználó kártyáit is megtekintheti. Ezenfelül kategóriák szerint szűrhetőek a kártyák.
 
 <a name="fogalom"></a><a name="2.2"></a>
-- [2.2](#fogalom) **Szakterületi fogalomjegyzék**: 
+- [2.2](#fogalom) **Szakterületi fogalomjegyzék**:
 
 <b>Regisztráció: </b>Egy folyamat ami után a vendég, "felhasználó" rangot kap.<br>
 <b>Felhasználó: </b>Egy személy aki regisztráció után belépett az alkalmazásba.<br>
@@ -37,7 +37,7 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 <b>Kártya: </b>Egy komponens ami tartalmazza a felhasználó nevét, egy képet, a kép címét, kategóriáját és feltöltési dátumát.<br>
 
 <a name="funkc"></a><a name="2.3"></a>
-- [2.3](#funkc) **Funkcionális követelmények**: 
+- [2.3](#funkc) **Funkcionális követelmények**:
 
 <b>Főoldal: </b>Elrejti az alkalmazást a vendégek elől. Felkelti a vendég érdeklődését a regisztrációra. <br>
 <b>Regisztráció: </b>Lehetővé teszi egy vendégnek, hogy használhassa az alkalmazást. <br>
@@ -48,11 +48,11 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
   - <b>Kategória alapján szűrés: </b>Képeket szűrhetjük kategóriák szerint. <br>
   - <b>Profiladatok szerkesztése: </b>Profilunk adatait lehetőség legyen megváltoztatni. <br>
   - <b>Profil törlése: </b>Nem használt profilunkat lehetőség legyen törölni az adatbázisból. <br>
-  
+
 <b>Kijelentkezés: </b>Felhasználó által használható funkció a bejelentkezett folyamat megszüntetésére. <br>
-  
+
 <a name="nemfunkc"></a><a name="2.4"></a>
-- [2.4](#nemfunkc) **Nem funkcionális követelmények**: 
+- [2.4](#nemfunkc) **Nem funkcionális követelmények**:
 
 <b>Könnyű áttekinthetőség: </b>Az alkalmazás a <a href="https://material.google.com/">Google Material Design</a> irányvonalait kövesse.Gyors és egyszerű használatot biztosítson a felhasználóknak. Az implementáláshoz a <a href="http://materializecss.com/">Materialize</a> keretrendszert használom.<br>
 <b>Megbízhatóság: </b>A jelszavakat ne plain-textbe tároljuk. Figyeljünk a jelszavak erősségére(legalább 6 karakter, szám + kis-,nagybetű). Jelszóval védett funkciók, ezzel védve a felhasználók érzékeny adatait. <br>
@@ -60,7 +60,7 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 <b>Karbantarthatóság: </b>Különböző rétegekhez tartozó forrásfájlokat külön mappákba csoportosítsuk, figyeljünk a Clean Code elvekre. Írjunk teszteket az alkalmazás fejlesztése közben ( akár TDD ).
 
 <a name="hasznal"></a><a name="2.5"></a>
-- [2.5](#hasznal) **Használatieset-modell**: 
+- [2.5](#hasznal) **Használatieset-modell**:
 
 **Szerepkörök:**
 
@@ -82,7 +82,7 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 **Vegyünk példának egy egyszerű folyamatot:**
 
  - ***Felhasználó törlése:***
- 
+
  1. Az oldalra lépett vendég bejelentkezik vagy regisztrál.
  2. Bejelentkezés után a felhasználó a navigációs sávon megnyithatja a profiladatokat tartalmazó oldalt.
  3. Megnyomja a "Szerkesztés" gombot.
@@ -105,13 +105,13 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 
 ##### Bejelentkezett
 - Képek listázása
-	- *Hozzászólások írása* 
+	- *Hozzászólások írása*
 - Saját profil megtekintése
 	- *Saját képek törlése*
 	- *Saját képek hozzáadása*
 	- *Saját képek szerkesztése*
 	- *Saját profil szerkesztése*
-	      - Felhasználói fiók törlése 
+	      - Felhasználói fiók törlése
 - Kijelentkezés
 
 ***Végpontok:***
@@ -134,8 +134,6 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 |GET|/user/:users/edit|Felhasználói fiók módosító ürlap megjelenítése.
 |POST|/user/:users/edit|Felhasználói fiók módosítása.
 |POST|/user/:users/delete|Felhasználói fiók törlése.
-
-## A szerveroldali alkalmazás progresszív fejlesztése kliensoldali JavaScript segítségével
 
 <a name="felulet"></a><a name="3.2"></a>
 - [3.2](#felulet) **Felhasználóifelület-modell**:
@@ -165,6 +163,78 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 
 Vegyünk példának a regisztrációt, majd egy új kép feltöltését, mindezt szekvenciadiagrammon.
 
+
+<img src="[doc]images/szekvencia.png"/>
+
+
+## A szerveroldali alkalmazás progresszív fejlesztése kliensoldali JavaScript segítségével
+
+### A funkcióban érintett fájlok mind kliens- és szerveroldalon
+
+* **Photospace**
+  * **app**: Alkalmazás fájlai.
+     * **Http**
+          * **Controllers**
+             * _CardController.js_      (modal kép hozzádáshoz)
+             * _RegisterController.js_  (modal regisztrációhoz)
+             * _AuthController.js_      (modal bejelentkezéshez)
+          * _routes.js_ (ajax végpontok hozzáadása)
+  * **public**:
+    * **scripts**
+       * _elore.js_           (előre gomb funkciója [footer])
+       * _popup_login.js_     (bejelentkezés funkciója)
+       * _popup_register.js_  (regisztráció funkciója)
+       * _popup_add_image.js_ (kép hozzáadás funkciója)
+       * _time.js_            (óra funkciója)
+       * _vissza.js_          (vissza gomb funkciója [footer])
+  * **resources**
+    * **views**:
+      * _master.njk_        (scriptek behúzása)
+      * _profileShow.njk_   (gomb id tag hozzáadása)
+      * _welcome.njk_       (gomb id tag hozzáadása)
+
+### A funkció működésének, folyamatának szöveges leírása
+
+* Bejelentkezés felugró ablak [popup_login.js]:
+    Bejelentkezést modalba megjelenytő kód.
+* Regisztráció felugró ablak [popup_register.js]:
+    Regisztrációt  modalba megjelenytő kód.
+* Kép hozzáadása felugró ablak [popup_add_image.js]:
+    Kép hozzáadást  modalba megjelenytő kód.
+* Idő kijelzése [time.js]:
+    Navbárba aktuális idő kijelzése.
+* Előre/vissza nyilak [elore.js + vissza.js]:
+    Hasonéó műkődés mint a böngésző előre vissza gombja.
+
+
+### Tesztelés
+
+A tesztelés Selenium IDE használatával valósul meg.<br>
+Elérés: https://addons.mozilla.org/hu/firefox/addon/selenium-ide/ <br>
+1. Le kell tölteni a Selenium IDE-t.<br>
+2. Firefoxban Selenium megnyitása.<br>
+3. Piros gomb megnyomásával a tesztelni kívánt feladatsor felvétele.<br>
+4. Piros gomb újbóli megnyomása a felvétel leállításához.<br>
+5. Play entire test suite gombbal a tesztek lejátszása.<br>
+6. Ctrl+S billentyűkombinációval teszt mentése.<br>
+
+Tesztesetek:<br>
+
+A tesztesetek a tests mappában találhatóak.
+
+1. Test suite 1: reg_log_add_del
+
+  Amit tesztelni fog:
+
+  + regisztrálás (név: Selenium IDE, email: selenium@ide.com, jelszó: selenium)
+  Regisztráláshoz egy képet is kikell választani ezt az egy sort átkell írnunk ha azt akarjuk, hogy a teszt máshol is működjön, mivel lokálisan töltjük fel.
+  + bejelentkezés (email: selenium@ide.com, jelszó: selenium)
+  + profil adatok szerkesztése.
+  + profil törlése.
+
+<img src="[doc]images/test.png"/>
+
+### Szekvenciadiagram
 
 <img src="[doc]images/szekvencia.png"/>
 
@@ -219,7 +289,7 @@ A Linuxos verzió nem frissít automatikusan, így megkell ismételni a lépése
     * **Commands**
           * _Greet.js_
      * **Http**
-          * **Controllers** 
+          * **Controllers**
              * _CardController.js_
              * _HomePageController.js_
              * _ProfileController.js_
@@ -253,7 +323,7 @@ A Linuxos verzió nem frissít automatikusan, így megkell ismételni a lépése
       * _Database.js_
     * _factory.js_
     * _PhotoSpace.sqlite_
-  * **public**: 
+  * **public**:
     * **css**
     * **img**
   * **resources**
@@ -281,7 +351,7 @@ Hardver:
 - _Pentium 4 or newer processor that supports SSE2_
 - _512MB of RAM_
 - _200MB of hard drive space_
-    
+
 Szoftver:
 - [Git](https://git-scm.com/)
 - [npm](https://www.npmjs.com/)

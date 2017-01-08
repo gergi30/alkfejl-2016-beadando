@@ -1,70 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-      <title>PhotoSpace - Nagy Gergely</title>
-      <!-- CSS  -->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link href="../../../../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-      <link href="../../../../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-   </head>
-   <body>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <title>PhotoSpace - Nagy Gergely</title>
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="../../../../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="../../../../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  </head>
+  <body onload="startTime()">
 
-     <nav class="teal" role="navigation">
-       <div class="nav-wrapper container">
-         <a id="logo-container" href="/" class="brand-logo">PhotoSpace</a>
-         {% if not currentUser %}
-         <ul class="right hide-on-med-and-down">
-           <li><a href="/login">Bejelentkezés</a></li>
-           <li><a href="/register">Regisztráció</a></li>
-         </ul>
-         <ul id="nav-mobile" class="side-nav">
-           <center><img class="responsive-img" style="width:100px;height:100px;margin-top:20px" src="icon_small.png"></center>
-           <li><a href="/login">Bejelentkezés</a></li>
-           <li><a href="/register">Regisztráció</a></li>
-         </ul>
-         {% else %}
-         <ul class="right hide-on-med-and-down">
-           <li>{{ currentUser.username }}</li>
-           <li> <a href="/user/{{ currentUser.username }}/cards"><i class="material-icons">perm_identity</i></a> </li>
-           <li><a href="/logout">Kijelentkezés</a></li>
-         </ul>
-         <ul id="nav-mobile" class="side-nav">
-           <center><img class="responsive-img" style="width:100px;height:100px;margin-top:20px" src="icon_small.png"></center>
-           <li><a href="/user/{{ currentUser.username }}/cards">{{ currentUser.username }}</a></li>
-           <li><a href="/logout">Kijelentkezés</a></li>
-         </ul>
-         {% endif %}
-         <a href="/" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-       </div>
-     </nav>
+    <nav class="teal" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="/" class="brand-logo">PhotoSpace</a>
+        {% if not currentUser %}
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <div id="time"></div>
+            </li>
+            <li>
+              <a href="/login" class="waves-effect waves-light" id="btnLogin">Bejelentkezés</a>
+            </li>
+            <li>
+              <a href="/register" class="waves-effect waves-light" id="btnReg">Regisztráció</a>
+            </li>
+          </ul>
+          <ul id="nav-mobile" class="side-nav">
+            <center><img class="responsive-img" style="width:100px;height:100px;margin-top:20px" src="icon_small.png"></center>
+            <li>
+              <a href="/login" id="btnLogin">Bejelentkezés</a>
+            </li>
+            <li>
+              <a href="/register" id="btnReg">Regisztráció</a>
+            </li>
+          </ul>
+        {% else %}
+          <ul class="right hide-on-med-and-down">
+            <li>{{ currentUser.username }}</li>
+            <li>
+              <a href="/user/{{ currentUser.username }}/cards">
+                <i class="material-icons">perm_identity</i>
+              </a>
+            </li>
+            <li>
+              <a href="/logout">Kijelentkezés</a>
+            </li>
+          </ul>
+          <ul id="nav-mobile" class="side-nav">
+            <center><img class="responsive-img" style="width:100px;height:100px;margin-top:20px" src="icon_small.png"></center>
+            <li>
+              <a href="/user/{{ currentUser.username }}/cards">{{ currentUser.username }}</a>
+            </li>
+            <li>
+              <a href="/logout">Kijelentkezés</a>
+            </li>
+          </ul>
+        {% endif %}
+        <a href="/" data-activates="nav-mobile" class="button-collapse">
+          <i class="material-icons">menu</i>
+        </a>
+      </div>
+    </nav>
+
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <div class="form-area"></div>
+      </div>
+    </div>
 
     {% block content %}{% endblock %}
 
-      <footer class="page-footer teal">
-         <div class="container">
-            <div class="row">
-               <div class="col l6 s12">
-                  <h5 class="white-text">Nyílt forráskód</h5>
-                  <p class="grey-text text-lighten-4">A projekt megtalálható a GitHub-on!</p>
-                  <a href="https://github.com/gergi30/alkfejl-2016-beadando" class="waves-effect waves-light btn pink">GitHub</a>
-               </div>
-               <div class="col l3 s12">
-               </div>
-               <div class="col l3 s12">
-               </div>
-            </div>
-         </div>
-         <div class="footer-copyright">
-            <div class="container">
-               Made by Gergely Nagy. Thanks to <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-            </div>
-         </div>
-      </footer>
-      <!--  Scripts-->
-      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script src="../../../../js/materialize.js"></script>
-      <script src="../../../../js/init.js"></script>
-   </body>
+    <footer class="page-footer teal">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Nyílt forráskód</h5>
+            <p class="grey-text text-lighten-4">A projekt megtalálható a GitHub-on!</p>
+            <a href="https://github.com/gergi30/alkfejl-2016-beadando" class="waves-effect waves-light btn pink">GitHub</a>
+          </div>
+          <div class="col l3 s12"></div>
+          <div class="col l3 s12"></div>
+        </div>
+      </div>
+      <div stlye="margin: 30;">
+        <a class="waves-effect waves-light btn" onclick="goBack()">
+          <i class="material-icons left">fast_rewind</i>vissza</a>
+        <a class="waves-effect waves-light btn" onclick="goForward()">
+          <i class="material-icons left">fast_forward</i>előre</a>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          Made by Gergely Nagy. Thanks to
+          <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+        </div>
+      </div>
+    </footer>
+    <!--  Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <script src="../../../../js/init.js"></script>
+    <script src="../../../../scripts/popup_login.js"></script>
+    <script src="../../../../scripts/popup_register.js"></script>
+    <script src="../../../../scripts/popup_add_image.js"></script>
+    <script src="../../../../scripts/time.js"></script>
+    <script src="../../../../scripts/elore.js"></script>
+    <script src="../../../../scripts/vissza.js"></script>
+
+    {% block scripts %}{% endblock %}
+  </body>
 </html>

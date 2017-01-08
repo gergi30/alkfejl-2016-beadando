@@ -24,3 +24,11 @@ Route.post('/user/:user_id/cards/:card_id/sendComment' , 'CardController.sendCom
 Route.get('/user/:users/edit', 'ProfileController.show')
 Route.post('/user/:users/edit', 'ProfileController.edit')
 Route.post('/user/:users/delete', 'ProfileController.delete')
+
+Route.group('ajax', function () {
+  Route.delete('/user/:users/cards/:id/delete', 'CardController.ajaxDelete')
+  Route.post('/login', 'AuthController.ajaxLogin')
+  Route.post('/register' , 'RegisterController.doAjaxRegister')
+  Route.post('/cards/create', 'CardController.doAjaxCreate')
+  Route.post('/user/:users/edit', 'ProfileController.ajaxEdit')
+}).prefix('/ajax')

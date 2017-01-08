@@ -17,7 +17,7 @@
   <div class="row">
 
     <div class="col s12 m6 l4">
-      <a href="/cards/create"><img class="responsive-img" src="../../img/addimg.png"></a>
+      <a href="/cards/create" id="btnAdd" ><img class="responsive-img" src="../../img/addimg.png"></a>
     </div>
     {% for card in cards %}
     <div class="col s12 m6 l4">
@@ -54,6 +54,11 @@
 
 
     {% endfor %}
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <div class="form-area"></div>
+      </div>
+    </div>
 
   </div>
 </div>

@@ -1,4 +1,9 @@
 {% extends 'master' %}
+
+{% block scripts %}
+
+{% endblock %}
+
 {% block content %}
   {{ request.currentUser.username }}
   {% if currentUser %}
@@ -49,7 +54,7 @@
                     <label for="comment">Hozzászólás írása</label>
                   </div>
                   <div class="col s4" style="padding-top:25px">
-                    <button class="waves-effect waves-light btn" id="submit" >Küld</button>
+                    <button class="waves-effect waves-light btn" id="submit">Küld</button>
                   </div>
                 </div>
               </form>
@@ -82,7 +87,7 @@
             <div class="card-panel" style="margin:10px">
               <center>
                 <span class="gray-text center-align">Van fiókod?
-                  <a href="/login" style="color:#FF69B4">Bejelentkezés</a>
+                  <a href="/login" style="color:#FF69B4" id="btnLogin">Bejelentkezés</a>
                 </span>
               </center>
             </div>
@@ -129,5 +134,12 @@
       </div>
       <div class="section"></div>
     </div>
+
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <div class="form-area"></div>
+      </div>
+    </div>
+
   {% endif %}
 {% endblock %}

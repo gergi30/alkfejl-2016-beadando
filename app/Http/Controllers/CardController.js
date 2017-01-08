@@ -103,6 +103,41 @@ class CardController { *
         response.redirect('back')
     }
 
+    *
+  doAjaxCreate(request, response) {
+
+      function getFormattedDate() {
+        var date = new Date();
+        var str = date.getFullYear() + "." + (date.getMonth() + 1) + "." + date.getDate() + "."
+
+        return str;
+      }
+
+      const card = new Card()
+      const file = request.file('file')
+      console.log(file);
+      const fileName = `${new Date().getTime()}_${file.clientName()}`
+      yield file.move(Helpers.publicPath('img/cardimages'), fileName)
+      if (!file.moved()) {
+        return
+      }
+
+      card.user_id = request.input('user_id')
+      card.avatarURL = request.input('avatar_url')
+      card.username = request.input('user_name')
+      card.category = request.input('category_name')
+      card.date = getFormattedDate()
+      card.imageURL = fileName
+      card.description = request.input('description')
+
+      yield card.save();
+
+      response.send({
+        success: true
+      })
+
+    }
+
 }
 
 module.exports = CardController
