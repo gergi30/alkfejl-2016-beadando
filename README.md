@@ -169,7 +169,33 @@ Vegyünk példának a regisztrációt, majd egy új kép feltöltését, mindezt
 
 ## A szerveroldali alkalmazás progresszív fejlesztése kliensoldali JavaScript segítségével
 
-### Tesztelés
+#### A funkcióban érintett fájlok mind kliens- és szerveroldalon
+
+* **Photospace**
+  * **app**: Alkalmazás fájlai.
+    * **Commands**
+          * _Greet.js_
+     * **Http**
+          * **Controllers** 
+             * _CardController.js_      (modal kép hozzádáshoz)
+             * _RegisterController.js_  (modal regisztrációhoz)
+             * _AuthController.js_      (modal bejelentkezéshez)
+          * _routes.js_ (ajax végpontok hozzáadása)
+  * **public**: 
+    * **scripts**
+       * _elore.js_           (előre gomb funkciója [footer])
+       * _popup_login.js_     (bejelentkezés funkciója)
+       * _popup_register.js_  (regisztráció funkciója)
+       * _popup_add_image.js_ (kép hozzáadás funkciója)
+       * _time.js_            (óra funkciója)
+       * _vissza.js_          (vissza gomb funkciója [footer])
+  * **resources**
+    * **views**:
+      * _master.njk_        (scriptek behúzása)
+      * _profileShow.njk_   (gomb id tag hozzáadása)
+      * _welcome.njk_       (gomb id tag hozzáadása)
+
+#### Tesztelés
 
 A tesztelés Selenium IDE használatával valósul meg.<br>
 Elérés: https://addons.mozilla.org/hu/firefox/addon/selenium-ide/ <br>
