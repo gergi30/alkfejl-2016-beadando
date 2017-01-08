@@ -135,8 +135,6 @@ A projekt az ELTE Informatikai kar Alkalmazások fejlesztése tárgy első beada
 |POST|/user/:users/edit|Felhasználói fiók módosítása.
 |POST|/user/:users/delete|Felhasználói fiók törlése.
 
-## A szerveroldali alkalmazás progresszív fejlesztése kliensoldali JavaScript segítségével
-
 <a name="felulet"></a><a name="3.2"></a>
 - [3.2](#felulet) **Felhasználóifelület-modell**:
 
@@ -172,6 +170,21 @@ Vegyünk példának a regisztrációt, majd egy új kép feltöltését, mindezt
 
 <a name="fejlkorny"></a><a name="4.1"></a>
 - [4.1](#fejlkorny) **Fejlesztői környezet bemutatása**:
+
+## A szerveroldali alkalmazás progresszív fejlesztése kliensoldali JavaScript segítségével
+
+### Tesztelés
+
+A tesztelés Selenium IDE használatával valósul meg.<br>
+Elérés: https://addons.mozilla.org/hu/firefox/addon/selenium-ide/ <br>
+1. Le kell tölteni a Selenium IDE-t.<br>
+2. Firefoxban Selenium megnyitása.<br>
+3. Piros gomb megnyomásával a tesztelni kívánt feladatsor felvétele.<br>
+4. Piros gomb újbóli megnyomása a felvétel leállításához.<br>
+5. Play entire test suite gombbal a tesztek lejátszása.<br>
+6. Ctrl+S billentyűkombinációval teszt mentése.<br>
+
+Tesztesetek:<br>
 
 ### Telepítés
 
